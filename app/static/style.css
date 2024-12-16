@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 300px;
+    background-color: #04AA6D;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+body {
+    background-color: aqua;
+    
+}
+
+form {
+    height: 90px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: -6px;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 6px 80px;
+    text-decoration: none;
+    margin: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: black;
+  }
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 300px;
+    background-color: #04AA6D;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card {
+    float: none; /* Added */
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.card-img-top {
+    width: 300;
+    height: 350;
+}
+
+.background {
+    background-color: gold;
+    padding: 18px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  
+
+
